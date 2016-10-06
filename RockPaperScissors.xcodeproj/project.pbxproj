@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		288673951D9EF9C70064F4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288673941D9EF9C70064F4B0 /* AppDelegate.swift */; };
-		288673971D9EF9C70064F4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288673961D9EF9C70064F4B0 /* ViewController.swift */; };
 		2886739A1D9EF9C70064F4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288673981D9EF9C70064F4B0 /* Main.storyboard */; };
 		2886739C1D9EF9C70064F4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2886739B1D9EF9C70064F4B0 /* Assets.xcassets */; };
 		2886739F1D9EF9C70064F4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2886739D1D9EF9C70064F4B0 /* LaunchScreen.storyboard */; };
+		288673A71D9F02340064F4B0 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288673A61D9F02340064F4B0 /* ButtonsViewController.swift */; };
+		288673A91D9F024F0064F4B0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288673A81D9F024F0064F4B0 /* ResultViewController.swift */; };
+		288673AB1D9F1A9C0064F4B0 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288673AA1D9F1A9C0064F4B0 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		288673911D9EF9C70064F4B0 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288673941D9EF9C70064F4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		288673961D9EF9C70064F4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		288673991D9EF9C70064F4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2886739B1D9EF9C70064F4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2886739E1D9EF9C70064F4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288673A01D9EF9C70064F4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288673A61D9F02340064F4B0 /* ButtonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsViewController.swift; path = ../ButtonsViewController.swift; sourceTree = "<group>"; };
+		288673A81D9F024F0064F4B0 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		288673AA1D9F1A9C0064F4B0 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				288673941D9EF9C70064F4B0 /* AppDelegate.swift */,
-				288673961D9EF9C70064F4B0 /* ViewController.swift */,
+				288673A81D9F024F0064F4B0 /* ResultViewController.swift */,
+				288673AA1D9F1A9C0064F4B0 /* Score.swift */,
+				288673A61D9F02340064F4B0 /* ButtonsViewController.swift */,
 				288673981D9EF9C70064F4B0 /* Main.storyboard */,
 				2886739B1D9EF9C70064F4B0 /* Assets.xcassets */,
 				2886739D1D9EF9C70064F4B0 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288673971D9EF9C70064F4B0 /* ViewController.swift in Sources */,
+				288673A71D9F02340064F4B0 /* ButtonsViewController.swift in Sources */,
 				288673951D9EF9C70064F4B0 /* AppDelegate.swift in Sources */,
+				288673AB1D9F1A9C0064F4B0 /* Score.swift in Sources */,
+				288673A91D9F024F0064F4B0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
